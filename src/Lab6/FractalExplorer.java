@@ -24,7 +24,7 @@ public class FractalExplorer {
     private int rem; //rows remaining
 
     public static void main(String[] args) {
-        FractalExplorer fracExp = new FractalExplorer(800);
+        FractalExplorer fracExp = new FractalExplorer(500);
         fracExp.createAndShowGUI();
         fracExp.drawFractal();
     }
